@@ -6,7 +6,10 @@ import { starIcon } from '@progress/kendo-svg-icons';
 export default function Buttons() {
   return (
     <Package id="buttons">
-      <Fieldset label="Button">
+      <Fieldset
+        label="Button"
+        link="https://www.telerik.com/kendo-react-ui/components/buttons/button"
+      >
         <div className="space-x-1">
           <Button>Default</Button>
           <Button themeColor={'primary'}>Primary</Button>
@@ -15,17 +18,12 @@ export default function Buttons() {
           <Button fillMode={'outline'}>Outline</Button>
           <Button fillMode={'link'}>Link</Button>
         </div>
-        <a
-          className="source-link"
-          href="https://www.telerik.com/kendo-react-ui/components/buttons/button"
-          referrerPolicy="no-referrer"
-          target="_blank"
-        >
-          Open Docs
-        </a>
       </Fieldset>
 
-      <Fieldset label="Button Group">
+      <Fieldset
+        label="Button Group"
+        link="https://www.telerik.com/kendo-react-ui/components/buttons/buttongroup"
+      >
         <ButtonGroup className="space-x-1">
           <Button togglable={true} themeColor={'primary'}>
             Primary Togglable
@@ -37,14 +35,6 @@ export default function Buttons() {
             Disabled Error
           </Button>
         </ButtonGroup>
-        <a
-          className="block source-link"
-          href="https://www.telerik.com/kendo-react-ui/components/buttons/buttongroup"
-          referrerPolicy="no-referrer"
-          target="_blank"
-        >
-          Open Docs
-        </a>
       </Fieldset>
     </Package>
   );
