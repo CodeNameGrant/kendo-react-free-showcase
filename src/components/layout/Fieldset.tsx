@@ -17,7 +17,7 @@ export default function Fieldset({ label, link, children }: FieldsetProps) {
             referrerPolicy="no-referrer"
             target="_blank"
           >
-            (Source)
+            (See Docs)
           </a>
         )}
       </legend>
